@@ -98,6 +98,8 @@ public class Main extends JFrame {
 		btnFornecedor.setIcon(new ImageIcon(Main.class.getResource("/img/fornecedor.png")));
 		btnFornecedor.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				frmFornecedor fornecedor = new frmFornecedor();
+				fornecedor.setVisible(true);
 			}
 		});
 		btnFornecedor.setBounds(10, 101, 155, 50);
